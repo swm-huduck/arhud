@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="image_converter" type="image_converter_node" name="image_converter" output="screen">
+  </node>
+  
+</launch>	
+ 

@@ -1,0 +1,9 @@
+<launch> 
+    <node pkg="vulkan" type="vulkan" name="vulkan" output="screen" cwd="node"> </node>
+
+    <include file="$(find lane_detect)/launch/lane_detect.launch"> </include>
+    <include file="$(find ocam)/launch/ocam_ros.launch"> </include>
+    <include file="$(find image_converter)/launch/image_converter.launch"> </include> 
+    <include file="$(find kalman_filter)/launch/kalman_filter.launch"> </include>
+    <include file="$(find pass_through_filter)/launch/pass_through_filter_node.launch"> </include>
+</launch>

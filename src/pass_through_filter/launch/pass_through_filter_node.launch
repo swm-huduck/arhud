@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="pass_through_filter" type="pass_through_filter_test" name="pass_through_filter_node" output="screen">
+  </node>
+</launch>	

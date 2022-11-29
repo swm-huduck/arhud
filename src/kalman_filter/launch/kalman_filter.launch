@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="kalman_filter" type="kalman_filter" name="kalman_filter" output="screen">
+  </node>
+</launch>	
